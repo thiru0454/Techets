@@ -1,0 +1,179 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.hero {
+    width: 100%;
+    background-color: white;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.logo {
+    color: #808080;
+    font-size: 28px;
+}
+
+span {
+    color: #ea1558;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    color: #ea1558;
+    transition: 0.3s;
+}
+
+
+button {
+    border: none;
+    background: #ea1558;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+
+.course-box {
+    width: 300px;
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.course-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.course-content img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.course-details {
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.course-details h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.course-details p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+}
+
+
+.filter-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.title {
+    padding-left: 200px;
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: grey;
+    margin-bottom: 0;
+}
+
+.title1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title-container {
+    padding-left: 20px;
+}
+
+.filter-container label {
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: grey;
+}
+
+.filter-container select {
+    appearance: none;
+    padding: 14px 22px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #000;  
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 240px; 
+}
+
+.filter-container select:hover {
+    background-color: #f0f0f0;
+}
+
+.filter-container select:focus {
+    border-color: #000; 
+}
+
+.filter-container select option {
+    background-color: #fff;
+    color: #000;
+}
+
+.filter-container select option:hover {
+    background-color: #f0f0f0;
+}
